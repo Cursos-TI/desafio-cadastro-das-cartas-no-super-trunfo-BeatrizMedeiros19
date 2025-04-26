@@ -18,7 +18,7 @@ int main(){
     printf("Carta 1: \n");
 
     printf("Digite o estado:  \n");
-    scanf("%s",  nome);
+    scanf("%s", nome);
 
     printf("Digite o codigo da carta:  \n");
     scanf("%s", codigo);
