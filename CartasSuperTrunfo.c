@@ -18,8 +18,9 @@ int main(){
     printf("Carta 1: \n");
 
     printf("Digite o estado:  \n");
-    scanf("%s", nome);
-
+    getchar();
+    fgets(nome, sizeof(nome), stdin
+);
     printf("Digite o codigo da carta:  \n");
     scanf("%s", codigo);
 
@@ -52,7 +53,8 @@ int main(){
     printf("Carta 2: \n");
 
     printf("Digite o estado: \n");
-    scanf("%s", Nome2);
+    getchar();
+    fgets(Nome2, sizeof(Nome2), stdin);
 
     printf("Digite o código da carta:  \n");
     scanf("%s", Codigo2);
